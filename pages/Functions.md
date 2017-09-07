@@ -151,6 +151,7 @@ let result4 = buildName("Bob", "Adams");         // ah, just right
 ```
 
 Default-initialized parameters that come after all required parameters are treated as optional, and just like optional parameters, can be omitted when calling their respective function.
+> 顺序在必要参数后面的默认值参数，相当于可选参数，在调用的时候，可以被忽略
 This means optional parameters and trailing default parameters will share commonality in their types, so both
 
 ```ts
